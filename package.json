@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "http-server",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,9 @@
   "description": "",
   "dependencies": {
     "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1"
   }
 }
